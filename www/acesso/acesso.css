@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Tienne:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Telex&family=Tienne:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Telex&family=Tienne:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.container { /*ponto na frente para classes */
+    width: 100%; /* espaço na tela */
+    max-width: 379px; /* Largura W */
+    min-height: 351px; /* Altura H */
+    padding: 24px 28px; /* Espaçamento interno (topo/baixo e esquerda/direita) */
+    border-radius: 21px; /* Arredondamento */
+    background-color: #FAF9F6;
+    font-size: 14px;
+    font-family: 'Telex', serif;
+}
+    
+.container h1 {
+    font-family: 'Tienne', serif;
+    font-size: 18px;
+    color: #ac004c;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.input-container [type="email"], [type="password"] {
+    position:relative;
+    width: 100%; /* espaço na tela */
+    height: 50px; /* Altura H */
+    margin: 5px 0;
+    padding: 10px 10px; /* Espaçamento interno (topo/baixo e esquerda/direita) */
+    border-radius: 10px; /* Arredondamento */
+    border: none;
+    outline: none;
+    background-color: #d3d3d3;
+}
+
+.input-container ::placeholder {
+    font-size: 12px;
+    color: #808080;
+    font-family: 'Taviraj', serif;
+}
+
+.button-container [type="submit"] {
+    background-color: #66cdaa;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 100px;
+    margin-left: 233px;
+    margin-top: 10px;
+    border: none;
+    padding: 9px 15px;
+    cursor: pointer;
+     justify-content: space-between;
+}
+
+.register-link a {
+    color: #66cdaa;
+    font-size: 14px;
+    font-family: "telex", sans-serif;
+    display: block; /* bloco independente que ocupa o máximo de espaço que der */
+    text-align: center;
+    margin-top: 40px;
+}
+
+#esqueci-senha { /* # na frente quando é ID*/
+    color: #ff6347;
+    font-size: 12px;
+    font-family: "telex", sans-serif; 
+    display: none;
+}
+
+label {
+    font-size: 14px;
+    margin: 10px 0;
+}
