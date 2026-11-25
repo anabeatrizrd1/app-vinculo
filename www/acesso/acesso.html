@@ -1,26 +1,26 @@
+<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <title>Acesso - Vínculo</title>
+    <title>Vínculo</title>
 <link rel="stylesheet" href="../style.css">
 <link rel="stylesheet" href="../acesso/acesso.css">
 </head>
 <body>
-    <main class="container">
-        <form>
+    <main class="cadastrar-ong">
+        <div class="mensagemCadastro" style="display:none;"></div>
+        <form class="ca">
             <h1>Quero cadastrar minha ONG</h1>
-            <div class="input-container">
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" placeholder ="Digite aqui..." name="email" required>
+            <div class= "cadastro">
+                <label>E-mail:</label>
+                <input type="email" class="email-ong" placeholder ="Digite aqui..." name="email" required>
             </div>
-            <div class="input-container">
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" placeholder ="Mínimo de 6 caracteres" name="senha" minlength="6" required>
+            <div class="cadastro">
+                <label>Senha:</label>
+                <input type="password" class="senha-ong" placeholder ="Mínimo de 6 caracteres" name="senha" minlength="6" required>
                 <a href="../esqueci-senha/esqueci-senha.html" id="esqueci-senha">Esqueci minha senha</a>
             </div>
-            <div class="button-container">
-                <button type="submit">Confirmar</button>
-            </div>
-            <div class="register-link">
+                <button type="button" class="confirmar-cadastro">Confirmar</button>
+            <div class="login">
                 <a href="../login/login.html">Já tenho minha ONG cadastrada</a>
             </div>
         </form>
