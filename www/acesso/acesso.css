@@ -64,7 +64,7 @@ body {
     border: none;
     padding: 9px 15px;
     cursor: pointer;
-     justify-content: space-between;
+    justify-content: space-between;
 }
 
 .login a {

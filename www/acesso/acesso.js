@@ -40,6 +40,7 @@ linkLogin.addEventListener("click", (event) => { //evento ao clicar no link para
         tituloTela.textContent = "Quero cadastrar minha ONG";
         botaoConfirmar.textContent = "Confirmar";
         linkLogin.textContent = "Já tenho minha ONG cadastrada";
+        linkSenha.style.display = "none";
     } else {
         tituloTela.textContent = "Entrar na minha ONG";
         botaoConfirmar.textContent = "Entrar";
