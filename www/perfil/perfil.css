@@ -18,7 +18,7 @@ body {
 }
 
 #main {
-    display: flex; /**/
+    display: flex; /* organiza os elemento filhos dentro de uma caixa flexível */
     flex-direction: column;
     width: 100%; /* espaço na tela */
     max-width: 372px; /* Largura W */
@@ -35,7 +35,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 6px 12px; /**/
+    padding: 6px 12px; /* espaçamento interno do elemento */
 }
 
 #topo {
@@ -46,7 +46,7 @@ body {
     text-align: center;
     letter-spacing: 3px;
     padding-left: 3px;
-    line-height: 1.1; /**/
+    line-height: 1.1; /* altura da linha de texto */
 }
 
 #titulo {
@@ -60,8 +60,8 @@ body {
 #dados {
     background-color: #f2f0ef;
     width: 100%;
-    max-width: 360px; /* Largura W */
-    min-height: 539px; /**/
+    max-width: 360px; 
+    min-height: 539px; /* altura mínima, ambientes que podem crescer */
     border-radius: 10px;
     padding: 14px 16px;
     margin: 12px auto 16px;
@@ -99,7 +99,7 @@ input {
 #telas {
     margin-top: auto;
     background-color: #e3799b;
-    display: flex; /**/
+    display: flex; 
     justify-content: space-between;
     align-items: center;
     gap: 20px;
