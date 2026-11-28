@@ -17,13 +17,25 @@ body {
 
 }
 
+#main {
+    display: flex; /**/
+    flex-direction: column;
+    width: 100%; /* espaço na tela */
+    max-width: 372px; /* Largura W */
+    min-height: 722px; /* Altura H */
+    background-color: #FAF9F6;
+    font-size: 14px;
+    font-family: 'Telex', serif;
+}
+
 #cor {
     background-color: #e3799b;
     width: 100%;
-    width: 372px;
-    height: 46px;
-    text-align: center;
-    box-sizing: border-box;
+    min-height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px; /**/
 }
 
 #topo {
@@ -32,11 +44,9 @@ body {
     font-weight: 400;
     color: #f2f0ef;
     text-align: center;
-    letter-spacing: 7px;
-    margin: 5px 0 7px;
-    padding: 0 16px;
-    box-sizing: border-box;
-
+    letter-spacing: 3px;
+    padding-left: 3px;
+    line-height: 1.1; /**/
 }
 
 #titulo {
@@ -47,29 +57,17 @@ body {
     margin-top: 15px;
 }
 
-#main {
-    width: 100%; /* espaço na tela */
-    max-width: 372px; /* Largura W */
-    min-height: 722px; /* Altura H */
-    background-color: #FAF9F6;
-    font-size: 14px;
-    font-family: 'Telex', serif;
-}
-
 #dados {
-    margin-top: 15px;
     background-color: #f2f0ef;
     width: 100%;
     max-width: 360px; /* Largura W */
-    min-height: 539px; 
+    min-height: 539px; /**/
     border-radius: 10px;
-    padding: 0px 16px;
-    margin: auto;
+    padding: 14px 16px;
+    margin: 12px auto 16px;
 }
 
-
 input {
-    position:relative;
     width: 100%; /* espaço na tela */
     height: 42px; /* Altura H */
     margin: 5px 0;
@@ -85,19 +83,29 @@ input {
 }
 
 #main ::placeholder {
-    color: 808080;
+    color: #808080;
     font-size: 10px;
     font-family: 'taviraj', serif;
 }
 
+.itens {
+    display: block;
+    width: 100%;
+    font-size: 13px;
+    margin-top: 4px;
+    text-align: center;
+}
+
 #telas {
-    display: flex; 
+    margin-top: auto;
+    background-color: #e3799b;
+    display: flex; /**/
     justify-content: space-between;
     align-items: center;
     gap: 20px;
     width: 100%;
-    padding: 12px 20px;
-    box-sizing: border-box;
+    min-height: 46px;
+    padding: 8px 16px;
 }
 
 button {
@@ -106,24 +114,8 @@ button {
     font-size: 14px;
     font-weight: 500;
     border-radius: 16px;
-    padding: 8px 8px;
+    padding: 6px 16px;
     border: none;
     cursor: pointer;
-    white-space: nowrap;
-    
-}
-
-#itens {
-    font-size: 13px;
-    margin-left: 100px;
-    text-align: center;
-}
-
-#telas {
-    background-color: #e3799b;
-    width: 100%;
-    width: 372px;
-    height: 46px;
-    text-align: center;
-    box-sizing: border-box;
+    white-space: nowrap; 
 }
